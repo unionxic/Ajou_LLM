@@ -1,0 +1,65 @@
+# Node.js (Frontend)
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+
+# Python (Backend)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
+.env
+.venv
+*.db
+*.sqlite3
+
+# AI Models
+*.pkl
+*.pt
+*.h5
+*.pth
+models/checkpoints/
+data/raw/
+data/processed/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Secrets and Config
+config/secrets.json
+*.key
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Chrome Extension
+*.crx
+*.pem
