@@ -26,21 +26,6 @@
 - Python 3.11+
 - Git
 
-### 설치 및 실행
-```bash
-# 레포지토리 클론
-git clone https://github.com/unionxic/Ajou_LLM.git
-cd Ajou_LLM
-
-# Frontend 설정
-cd frontend
-npm install
-npm run dev
-
-# Backend 설정 (새 터미널)
-cd backend
-pip install -r requirements.txt
-uvicorn app.main:app --reload
 
 
 
